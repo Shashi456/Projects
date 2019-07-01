@@ -29,8 +29,15 @@ I'm pursuing this project as a part of pioneer.app .
 
 
 ## Week 2 Targets 
-- [ ] Make a basic Voice channel authentication app and complete the MVP for voice channels.
-- [ ] Talk to a few Blockchain + IPFS solution founders who might be interested in creating the idea/ help me in the process
-- [ ] Start on a content MVP
+- [x] Make a basic Voice channel authentication app and complete the MVP for voice channels.
+- [x] Talk to a few Blockchain + IPFS solution founders who might be interested in creating the idea/ help me in the process
+- [x] Start on a content MVP
 
+Part 3 wasn't done up to the mark, and i'm still working on it.
+
+
+## Week 3 Targets
+- Work on MVP and release it
+- Get more people interested and bounce the ideas of other people.
+- search for other forgery based problems
 
