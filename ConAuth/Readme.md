@@ -41,3 +41,4 @@ Part 3 wasn't done up to the mark, and i'm still working on it.
 - Get more people interested and bounce the ideas of other people.
 - search for other forgery based problems
 
+[ Stopped pursuing due to lack of time ] - 8th July 2019. I will definitely get back to this and have a better blueprint of the idea i would like to pursue and how to go about pursuing it. 
