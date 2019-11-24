@@ -1,5 +1,5 @@
 # Projects
-A variety of projects and ideas I'm trying to pursue in my free time, and some course notes i've been interested in.
+A variety of projects and ideas I'm trying to pursue in my free time, and some non-Deep learning course notes i've been interested in.
 
 ## Content Authentication 
 Content Authentication - Exploring and devising ways to authenticate things like audio, video, images, text so its forgery-proof somehow.
