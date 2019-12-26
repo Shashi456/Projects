@@ -3,8 +3,8 @@
 <b>What is the idea</b>
 
 - Content authentication - It can be anything your voice, your face, the art your create, the photos and videos you publish.  
-- As far as is publishable content is considered , at its core, It would be something like each time you publish a piece of content you sign the content with your private key and your public key is available to everyone who can then use this key to authenticate your content. The idea originated from the joe rogan voice forgery, and one other separate application is a channel authentication based voice calling service. 
--  Primarily, I would like to work on images and text signing because videos can just be extrapolated by frames of images but might have some inherent issues of stitching together the signed frames.
+- As far as publishable content is considered, at its core, It would be something like each time you publish a piece of content you sign the content with your private key and your public key is available to everyone who can then use this key to authenticate your content. The idea originated from the joe rogan voice forgery, and one other separate application is a channel authentication based voice calling service. 
+-  Primarily, Earlier work should be done on images and text signing because videos can just be extrapolated by frames of images but might have some inherent issues of stitching together the signed frames.
 - Another application, I thought of initially is a each time you call someone, how can you be sure that the person at the other end of the phone is someone real and not a bot who is just forging the persons voice? 
 - In the deep fakes regime, if you could sign content you create/make sure of a way where in authentication is possible and something originates using technology which has you in it, then this might just protect you. 
 
@@ -19,7 +19,7 @@
 - The voice channel authentication app, I hope that it becomes a defacto standard, but the user here is everyone who calls other people, this is just an added layer of security to make your experience seeamless.
 - Deepfakes, I think curbing the usage of deepfakes to harm your image is extremely important and if all content was tied to a source, then it would be very easy to see that its fake. 
 
-
+<!-- 
 I'm pursuing this project as a part of pioneer.app .
 
 ## Week 1 Progress
@@ -41,4 +41,4 @@ Part 3 wasn't done up to the mark, and i'm still working on it.
 - Get more people interested and bounce the ideas of other people.
 - search for other forgery based problems
 
-[ Stopped pursuing due to lack of time ] - 8th July 2019. I will definitely get back to this and have a better blueprint of the idea i would like to pursue and how to go about pursuing it. 
+[ Stopped pursuing due to lack of time ] - 8th July 2019. I will definitely get back to this and have a better blueprint of the idea i would like to pursue and how to go about pursuing it.  -->
