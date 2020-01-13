@@ -12,3 +12,6 @@
 \contentsline {subsubsection}{\numberline {2.1.2}Wiring Diagrams(String Diagrams)}{10}%
 \contentsline {subsection}{\numberline {2.2}Lecture 2}{11}%
 \contentsline {subsubsection}{\numberline {2.2.1}Symmetric Monoidal preorder}{11}%
+\contentsline {subsubsection}{\numberline {2.2.2}Enriched Categories}{12}%
+\contentsline {subsubsection}{\numberline {2.2.3}Metric Spaces}{12}%
+\contentsline {subsection}{\numberline {2.3}Additional Chapter Notes}{13}%

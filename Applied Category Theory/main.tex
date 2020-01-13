@@ -268,9 +268,58 @@ P(x) = $(P(x), \subset, X, \cap)$\\
     Symmetric if it obeys: \\
     $a*b \leq b*a$ (symmetric)
 \end{defn}
+\newpage
+\subsubsection{Enriched Categories}
+Monoidal preorders structure the Question of getting from A to B. 
+In the form of questions like, 
+\begin{center}
+    Can i? Bool.\\
+    How much? Cost.\\
+    How can I? P(X).
+\end{center}
+\begin{figure}[]
+    \centering
+    \includegraphics[scale=0.5]{./images/8.jpg}
+    \caption{Appearance of monoidal structure and order in Enriched Categories}
+    \label{fig:my_label}
+\end{figure}
+\begin{defn}
+    Let V = $(P, \leq, e, *)$ be a symmetric monoidal preorder, \\
+    a V-category is, \\
+    - a Set X ( of objects)\\
+    - A function $X * X \xrightarrow{e} P$
+    such that, \\
+    (a) $e \leq e(x, x)$\\
+    (b) $e(x,y)*e(y,z) \leq e(x, z)$
+ \end{defn}
+ Q: What do (a), (b) say when V is bool?\\
+ Ans : (a) $ T \leq C(x,x) \equiv C(x, x) = T$\\
+       (b) $C(x, y) \wedge C(y,z) \Rightarrow C(x,z)$\\
+     i.e $ x \leq y, y \leq z \Rightarrow x \leq z$ (Transitivity)\\
+C in the above question is $\leq$ i.e Preorders are Bool categories. 
 
+\subsubsection{Metric Spaces}
+\begin{defn}
+    A metric space is : \\
+    - A set X \\
+    - A distance function d: $X*X \rightarrow [0, \inf]$, 
+    such that \\
+    (a) d(x, x) = 0 \\
+    (b) d(x, y) = d(y, x)\\
+    (c) d(x, y) = 0 $\Rightarrow$ x = y \\
+    (d) The triangle inequality
+\end{defn}
+Example: Euclidean space, Haussdorff Distance, Walking distance. 
 
-
+\begin{defn}
+    A cost category is (Lawvere Metric space): \\
+    - A set X \\
+    - A function function d: $X*X \xrightarrow{d} [0, \inf]$, 
+    such that \\
+    (a) $0 \geq d(x, x)$ \\
+    (b) $d(x, y) + d(y,z \geq d(x,z)$
+\end{defn}
+\subsection{Additional Chapter Notes}
 \end{document}
 
 
