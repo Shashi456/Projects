@@ -12,3 +12,5 @@
 - Cauchy Sequences
 - Constructions of real from set theory
 - Noob Arithmetic Functions (Euler -Totient Function, Mobius Functions, Relations between both, Mobius Inversion?, Dirichlect Convolution )
+### 22nd January
+- Template Metaprogramming & Turing Complete Machines, languages.
