@@ -14,3 +14,9 @@
 - Noob Arithmetic Functions (Euler -Totient Function, Mobius Functions, Relations between both, Mobius Inversion?, Dirichlect Convolution )
 ### 22nd January
 - Template Metaprogramming & Turing Complete Machines, languages.
+## 23rd - 31st January
+- Segment Trees and recursive lazy propagation, implementation of
+generic abstraction for segment trees through templates.
+- Max flow and min cut graph problems, Explanation of ford fulkerson, dinitz and push relabel.
+- Fourier transforms, convolutions, why fourier transformers are important, the notion of delay and linear time invariant systems.
+- Fractals and haussdorf dimensions.
