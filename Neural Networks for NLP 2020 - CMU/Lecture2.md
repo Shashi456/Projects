@@ -5,6 +5,7 @@
 ## Language Modeling
 - Language Modeling is the calculating the probability of a sentence i.e the distribution of sentences that is how often they appear in the language.
 <img src="./images/lecture2/LM.png">
+
 - This is done by conditioning on the previous words, also called as an autoregressive manner of prediction.
 - Problems with most language models include, cannot share strength among similar words, cannot condition on context with intervening words, Cannot handle long distance dependencies.
 - Issues with linear models : Linear Models can't handle feature combinations, and an attempt to remember combinations as features results into explosion of features.
