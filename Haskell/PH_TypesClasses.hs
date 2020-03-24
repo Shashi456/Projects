@@ -33,3 +33,30 @@ sum4 x p q r = x + sum3 p q r
 -- sum4 :: Num a => a -> a -> a -> a -> a
 
 -- Polymorphic functions have the type [a] -> x where x can be anything here is can be of any type. Example funcitons include length, take etc. Q: How to interpret function variables? 
+
+
+second xs = head (tail xs)
+--[a] -> [a] -> a // Wrong
+-- [a] -> a (The above is wrong because, you can think of a function in terms of currying only when there are multiple arguments.)
+
+swap (x, y) = (y, x)
+-- (t1, t) -> (t, t1) // Pretty cool that haskell exactly can derive the type inference in a sense that it knows a swap is occuring and isn't (a, a) -> (a, a) purely.
+
+double x = x*2 
+-- a -> a
+
+palindrome xs = reverse xs == xs 
+-- [a] -> bool
+
+twice f x = f (f x)
+-- (t -> t) -> t -> t // this makes me realize about function adherence and how type is inferred off of that. the paranthesis around t -> t saying that this is first an internal function application which results in a value t which is then mapped to t. So (t->t)->t->t, is probably for showing compositional functions. 
+thrice f x = f (f (f x))
+--has the same type as above so as long as it is the same function it has the same compositional type inference. 
+
+--lets try something different, given the function 
+second f t x = f (t x)
+-- type is, second :: (t -> t1) -> (t2 -> t) -> t2 -> t1
+ thrice f x z = f( f (x (z)))
+-- type is, thrice :: (t -> t) -> (t1 -> t) -> t1 -> t
+-- Read more about type inference and types of compositional functions in haskell.
+
