@@ -9,3 +9,19 @@
 - Empirical Evaluation of Activation Functions (Eger et al 2018)
 - Optimizing RNNs with CuDNN (appleyard 2015)
 - Learning Sentiment from LMs (Radford et al 2017)
+- Visualizing LSTMs (Karpathy et al 2015.)
+- Optimized Implementations of LSTMs (Appleyard 2015)
+- Noise Contrastive Estimation (Mnih & Teh 2012)
+- Von Mises-Fisher Loss for training Seq2Seq Models with Continous Outputs (Kumar and Tsetkov et al 2019) [[Paper](https://arxiv.org/pdf/1812.04616.pdf)][[Review](https://github.com/Shashi456/Papers/blob/master/Review/VonMisesLoss.md)]
+- Ensemble Distillation(kim et al 2016)
+- BERTScore (Zhang et al 2019)
+- Conditioned LM 
+    - From Structured Data (Wen et al 2015)
+    - Challenges in data to document generation (Wiseman et al 2017)
+- Attention Papers
+    - Cohn et al 2015 
+    - Attention is not Alignment (koegn and knowles 2017)/ Jain & Wallace 2019
+    - Hierarchical Attention (Yang et al 2015)
+    - Gu et al 2016/ Arthur et al 2016  
+    - Bahdanau et al 2015
+

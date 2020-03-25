@@ -21,7 +21,7 @@
 
 ## Model Ensembling 
 - Combining predictions from multiple models. 
-<img src='./images/Lecture7/en.jpg'>
+<img src='./images/Lecture6/en.jpg'>
 - Types of Ensembling 
     - Linear Interpolation: Take a weighted average of the M model probabilities. Favors any choice that a model gives a high probability to. Can be thought of as logical or, taking the highest probability word. 
     - Log-Linear Interpolation: Weighted combination of log probabilities. Favors cho ice where all models agree. Can be thought of logical and, taking the intersection of agreement of all models. 
