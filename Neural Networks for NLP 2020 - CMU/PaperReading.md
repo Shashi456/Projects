@@ -24,4 +24,13 @@
     - Hierarchical Attention (Yang et al 2015)
     - Gu et al 2016/ Arthur et al 2016  
     - Bahdanau et al 2015
+- Word Embeddings 
+    - Levy and Goldberg et al 2014
+    - Glove 2014
+    - Word2Vec 2014
+    - Intrinsic Evaluation of Embeddings (Schnabel et al 2015) 
+    - Murphy et al 2012
+    - Bag-of-character n-grams (wieting et al 2016)
+    - De-biasing Word Embeddings (Bolukbasi et al 2016.)
+    - 
 
