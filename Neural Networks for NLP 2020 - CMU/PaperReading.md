@@ -30,7 +30,12 @@
     - Word2Vec 2014
     - Intrinsic Evaluation of Embeddings (Schnabel et al 2015) 
     - Murphy et al 2012
+    - Wieting et al 2016, Bojanowski et al 2017
     - Bag-of-character n-grams (wieting et al 2016)
     - De-biasing Word Embeddings (Bolukbasi et al 2016.)
-    - 
+- Contextual Word embeddings
+    - McCann et al 2017, Cove 
+    - Peters et al, ELMo
+    - Peters et al 2017
+
 
