@@ -37,5 +37,12 @@
     - McCann et al 2017, Cove 
     - Peters et al, ELMo
     - Peters et al 2017
+    - OpenAI GPT (2018)
+- Semantic Similarity (Marelli et al 2014)
+- Language Model Transfer (dai and le 2015)
+- Context Prediction (Skip-thought vectors) Kiros et al 2015
+- ParaNMT Wieting and Gimpel 2018
+- InferSent Conneau et al 2017
+- The Bottom-up Evolution of Representations in the Transformer:A Study with Machine Translation and Language Modeling Objectives (voita et al)
 
 
