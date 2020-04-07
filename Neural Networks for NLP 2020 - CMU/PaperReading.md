@@ -44,5 +44,11 @@
 - ParaNMT Wieting and Gimpel 2018
 - InferSent Conneau et al 2017
 - The Bottom-up Evolution of Representations in the Transformer:A Study with Machine Translation and Language Modeling Objectives (voita et al)
+- residual connections(He et al 2015)
+- Highway networks(Srivastava et al 2015)
+- (Morishita et al 2017) Batching
+- Neural net can memorize training data (Zhang et al 2017)
+- Optimizers: Adaptive Gradient methods tend to overfit more (wilson et al 2017)
+- Koehn and knowles 2017, better model score worse bleu scores.
 
 
