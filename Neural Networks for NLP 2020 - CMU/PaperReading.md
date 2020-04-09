@@ -50,5 +50,15 @@
 - Neural net can memorize training data (Zhang et al 2017)
 - Optimizers: Adaptive Gradient methods tend to overfit more (wilson et al 2017)
 - Koehn and knowles 2017, better model score worse bleu scores.
+- Lecture 11 Reading and Conditional Random Fields Paper.
+- BiLSTM-CNN-CRF for Sequence Labeling (Ma et al 2016)
+- Recursive Neural Networks (socher et al)
+- Tree Strucured LSTM (Tai et al 2015)
+- Semantic Parsing
+    - Course Reading
+    - Dong and Lapata 2016, 2018
+    - Yin and Neubig 2017, 2018, 2019
+    - Rabinovich 2017
+    -  
 
 
