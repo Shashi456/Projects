@@ -55,10 +55,14 @@
 - Recursive Neural Networks (socher et al)
 - Tree Strucured LSTM (Tai et al 2015)
 - Semantic Parsing
-    - Course Reading
+    - Course Reading (lecture 12, 13)
     - Dong and Lapata 2016, 2018
     - Yin and Neubig 2017, 2018, 2019
     - Rabinovich 2017
-    -  
+- Structured Prediction
+    - RAML (Nourozi et al  2016)
+    - DAgger (Ross et al 2010)
+    - Course Reading (Lecture 14)
+    
 
 
