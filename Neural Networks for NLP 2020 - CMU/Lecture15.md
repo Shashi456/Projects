@@ -6,4 +6,16 @@
     - Problems
         - Exposure Bias 
         - Disregard to Evaluation Metrics (We want good outputs)
-            - Some predictions are worse than others.
+            - Some predictions are worse than others. 
+- Error: Generate an output, calculate its badness, we would like to minimize this error
+    - The argmax function makes discrete zero-decisions, therefore it's non-differentiable. 
+- Risk: It is the expectation of the error. 
+    - This include the probability in the objective function
+    - Differentiable but the sum is intractable.
+    - Minimum risk training, minimizes risk  (MRT Shen et al 2015)
+        - Sample samples and calculate risk over that.
+        - Samples using random sampling or n-best search
+    - Strong connection between risk and the error function being a zero-one loss.
+    - Temperature helps adjust for the small sample.
+## Reinforcement learning
+- 
