@@ -63,6 +63,18 @@
     - RAML (Nourozi et al  2016)
     - DAgger (Ross et al 2010)
     - Course Reading (Lecture 14)
-    
+- MRT Shen et al 2015
+- He et al 2020, Noising the input
+- Curriculum Training, Bengio et al 2015
+- Lin et al 1993, Experience replay
+- RL for QA choi et al
+- William and Zweig 2017 (neural network models, task based)
+- Search 
+    - Nucleus Sampling (Holtzman et al 202)
+    - Actor Critic (Bahdanau et al 2017)
+    - Search in Training (Wiseman et al 2016)
+    - Predict the output length (Eriguchi et al 2016)
+    - Search Error and Model Error (neubig 2015)
+
 
 
