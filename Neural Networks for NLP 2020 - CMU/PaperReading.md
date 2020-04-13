@@ -75,6 +75,23 @@
     - Search in Training (Wiseman et al 2016)
     - Predict the output length (Eriguchi et al 2016)
     - Search Error and Model Error (neubig 2015)
+- Adversarial Learning 
+    - GANs for Text are hard (yang et al 2017, wu et al 2017)
+    - GANs for Language Generation (Yu et al 2017)
+    - CNNs as discriminator (yu et al 2017, wu et al 2017)
+    - Learning Domain-invariant Representations (ganin et al 2016)
+    - Learning Language Invariant Representations (chen et al 2016), Multilingual MT (Xie et al 2017)
+    - What is an Adversarial Example (Michel et al 2019)
+    - adversarial-ml-tutorial.org
+- Models over Latent Variables
+    - reparametrization trick (doersch et al 2016)
+    - Variational Autoencoders (kingma et al 2014)
+    - KL Divergence Annealing (Bowman et al 2017)
+    - Aggressive Inference Network Learning( He et al 2019)
+    - Symbol Sequence Latent Variables (miao and blunsom 2016)
+    - Reparameterization (maddison et al 2017, jang et al 2017)
+
+
 
 
 
