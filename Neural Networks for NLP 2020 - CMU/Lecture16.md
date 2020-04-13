@@ -1,0 +1,73 @@
+# Advanced Search Algorithms
+- The generation problem
+    - Given a model of P(Y|X), how do we use it to generate a sentence
+    - Two methods: Sampling or argmax
+    - Use search, if you want best possible single output
+    - Generate diverse outputs (Sampling/Search)
+    - Use sampling, to observe multiple outputs acc to probability distribution
+## Sampling
+- Ancestral Sampling
+    - Generate words one by one
+    - An exact method for sampling from P(X)
+## Search Basics
+- We search to find the best output, 
+- What is best?
+    - The most accurate output (Impossible because we dont know what a good output looks like)
+    - The most probable output (what we currently do)
+        - Simple but not necessarily tied to accuracy.
+    - The output with the lowest bayes risk
+        - Risk is the expected error, Bayes error is the expected error wrt all the other outputs
+- Search Error and Model Error (neubig 2015)
+    - Search error happens when the search algo fails to find an output that optimizes its search criteria (Accuracy)
+    - Model error is the output that optimizes the search criterion does not optimize accuracy. (Model score is the log probability)
+- Greedy Search
+    - Pick the highest probability word 
+    - problems
+        - Prefers multiple common words instead of one real word
+        - Generate easy words
+- Beam Search
+    - Maintain Multiple paths
+    - Expand each path
+    - Choose subset of paths
+    - Basic Pruning Methods(Steinbliss et al 1994)
+        - Histogram Pruning: Keep K hypothesis
+        - Score Threshold Pruning: Keep hypothesis with score within a threshold
+        - Probability Mass Pruning: Keep hypothesis until probability mass alpha
+    - Larger Beam size will be slower
+        - 5 beam size helps
+        - Beam size is chosen empirically
+- Problems with Beam Search
+    - When you want to generate outputs, with specific content, some easy some hard, and some might fit better than the others. The search algo might choose the easy thing first
+        - Future cost (A solution): Predict how hard it will be to process unprocessed words and search for max of sum (li et al 2017, Koehn 2010 chap 6)
+- Better Search can hurt results (koehn and knowles 2017)
+    - Because of Model errors
+    - How to fix model errors
+        - Train the model so that it is better correlated with accuracy (MRT, RL etc)
+        - Change the decision rule (To minimize risk)
+        - Heuristically modify the model score post hoc
+        - Hobble the search algorithms
+- Minimum Bayes Risk Decoding
+    - Outputs that are "sage" given all other high probability outputs
+    - Can be thought of searching for hypothesis which minimizes risk
+    - MBR Reranking
+        - Create n-best list
+        - Create error matrix and probability vector
+        - Multiply to get risk
+        - Choose hypothesis with lowest risk  
+- Improving diversity in top N choice (li et al 2016)
+- Samplimg without Replacement (Kool et al 2019)
+- Heuristic Modifications to Model Score
+    - The output sequence are of variable length, MLE + local normalizations results in gradual degradation
+    - Solution 1, Length Normalization (Cho et al 2014), More complicated heuristics (Wu et al 2016)
+    - Solution 2, Predict the output length (Eriguchi et al 2016)
+- Hobbled Search Algorithms
+    - Limited Sampling
+        - Top K Sampling
+        - Nucleus Sampling (Holtzman et al 202)
+- Caution about Sampling Based search
+    - Sampling is not really for diversity, do diverse beam search instead
+    - Results are not consistent from run-to-run
+    - Conflates model and search error
+- Search in Training (Wiseman et al 2016)
+- Continous Beam Search (Goyal et al 2017)
+- Actor Critic (Bahdanau et al 2017)
