@@ -106,6 +106,27 @@
     - Johnson et al 2016, Ha et al 2016
     - Zero shot Transfer to new Languages (Chen et al 2020)
     - Data Creation, Active Learning (Chaudhary et al 2019)
+- Document Level Models
+    - End-to-end Neural Coreference (Lee et al 2017)
+    - Transformer XL
+    - Sparse Transformer
+    - Generalizing natural language analysis through span representations (Jiang et al)
+- Injecting Knowledge into Language Models (Hayashi et al 2020)
+- Retrofitting Of Embeddings to Existing Lexicons (Faruqui et al 2015)
+- QA
+    - Attention Sum Reader (Kadlec et al 2016)
+    - Attention over Attention (Cui et al 2017)
+    - Bidirectional Attention Flow (Seo et al 2017) 
+    - Coarse-to-fine Question Answering (Choi et al 2017)
+    - Memory Networks (Weston et al 2014)
+    - Softened and Multi layer Memory networks (sukhbatar et al 2015)
+    - Petroni et al 2019 
+    - Retrieve + MLM -> Guu et al 2020
+    - Questioning Answering with Context (Choi et al 2018, Reddy et al 2018)
+    - Neural networks are bad at math (naik et al 2019, wallace at 2019)
+    - Drop dataset
+    - Combine Semantic parsing and Machine Reading (Gupta et al 2020)
+    - Differentiable Theorem Proving (Rocktaschel and Riedel 2017)
 
 
 
