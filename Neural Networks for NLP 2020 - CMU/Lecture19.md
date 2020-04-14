@@ -1,0 +1,40 @@
+# Unsupervised and SemiSupervised learning of Structure
+- Supervised learning is when we are given about Y's and X's while training time
+- Unsupervised only the X's are given, In semisupervised both are given, but only the X's are present for the larger portion of the data.
+- When we are training BERT, the supervised learning problem is, if we have a sentence with a masked out word can we predict the word. Can the supervised learning problem be used for anything? The answer for which is yes, and can be used for QA.
+    - It is also learning unsupervised learning, which are the latent features of the language and these can be used by freezing or finetuning
+- Learning Features (eg:word/sentence embeddings) vs Learning Structure (eg:Tree)
+    - Learning structure is useful when you want to model information flow differently
+    - Discrete structures are more interpretable
+-  In discrete structure learning, words can be clustered in context or just freely, or the structure can be learned.
+- Objective 
+    - A generative model of the data X modeled with a traditional generative model or a (variational) auto-encoder.
+- Clustering words in context
+    - Train word embeddings and then perform k-means clustering on them (done in word2vec)
+- Goal of the following models is to learn discrete clustering in words in context
+- Hidden markov models
+- Unsupervised HMMs
+    - Change labeled states to unlabeled numbers
+    - can be trained with forward-backward algorithm
+    - The independence assumption helps model things like syntax 
+- Hidden Markov models w/ Gaussian Emissions
+    - Parmeterize each with a gaussian
+    - Defacto-standard for speech recognition
+- Featurized HMMs (Tran et al 2016)
+    - Calculate Transition/emission probabilities with a neural networks
+    - Emission with CNNs and Transition w/LSTMs (this breaks the markov assumption)
+- Embeddings may not be indicative of syntax (he et al 2018)
+    - Learn POS taggers with latent embeddings
+- Normalizing Flow (Rezende and Mohamed 2015)
+    - Map from one probability distribution to another in an invertible manner.
+    - Neural Projector
+- Unsupervised Models cross lingual applications (He et al 2019)
+- Soft vs Hard tree structure
+    - Soft -> Differentiable gating function
+    - Hard -> Non differentiable, but can learn more complicated structures.
+- Learning with RL (Yogatama et al 2016)
+    - Intermediate tree-structure representation for LM
+- The ones learning with Soft tree structures learn better
+    - Gated Convolutions
+    - Learning with Layer wise Reductions (Choi et al 2017)
+- The difficulty fundamentally lies in the untrained parser and the untrained LM
