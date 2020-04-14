@@ -1,0 +1,61 @@
+# Learning from/or Knowledge bases
+- Knowledge Bases -> Represented as graphs
+    - Entities (nodes in a graph)
+    - Relations (edges between nodes)
+- How to create/expand KBs
+- How to learn from the info in KBs to improve models?
+- WordNet (Miller 1995)
+    - Large database of words including part of speech, semantic relation
+- CYC (Lenant 1995)
+    - Manually curated database attempted to encode all common sense knowledge
+- DBPedia (auer et al 2007)
+- Freebase/ WikiData (Bollacker et al 2008)
+    - Curated data version of wikipedia
+## Learning Representations for KBs
+- Learning Knowledge Graph Embeddings (Bordes et al 2013)
+    - TransE Approach
+    - Express triples as additive transformation
+    - one vector for each relation only (Bottleneck)
+- Decomposable Relation Model (Xie et al 2017)
+    - There are many relations but each can be represented by a limited number of "concepts"
+- Multihop Relational Context w/ Graph NNs (Schlichtkrull et al 2017)
+    - Consider all the local neighborhood entitities instead of each triples
+- Issues with KBs
+    - KBs are nature incomplete
+    - How to extract relations?
+- Relation Extraction w/ Neural Tensor Network (Socher et al 2013)
+    - Predicting relations 
+    - Overly parameterized
+## Learning from text directly
+- Distant Supervision for Relation Extraction (Mintz et al 2009)
+    - Given an entity-relation-entity triple, extract all text that matches this and use it to train
+    - Creates a large corpus of labeled text to train a system
+- Relation Classification w/ CNNs (Zeng et al 2014)
+    - Extract features w/o syntax using CNNs
+- Jointly modeling KB relations and text (Toutanova et al 2015)
+- Retrofitting Of Embeddings to Existing Lexicons (Faruqui et al 2015)
+    - Similar to joint learning, but done through post hoc transformation of embeddings
+- Injecting Knowledge into Language Models (Hayashi et al 2020)
+    - Provide LMs with topical knowledge in the form of copiable graphs
+    - Examine all possible decoding "paths" and maximize the marginal probability
+- Reasoning over text corpus as KBs (Dhingra et al 2020)
+    - Open Domain QA
+    - QA using text corpora as a traceable KB
+    - Relevance Matching over mentions
+## Schema Free Extraction
+- Open Information Extraction (banko et al 2007)
+    - The text is the relation
+- Rule Based OPen IE
+    - Use parse to extract according to rules
+    - Aggregate multiple pieces of evidence
+- Neural Models for Open IE
+    - Heuristics are still not perfect
+    - He et al 2015, Stanovsky et al 2018
+## Learning Relations from Relations
+- Modeling Relations
+    - Word embeddings give information of the word in context
+    - Other relations are also possible, therefore can be thought of as link prediction problem in graphs
+    - Tensor Decomposition (sutskerver et al 2009)
+    - Matrix Factorization to reconcile schema-based and open IE Extractions (Riedel et al 2013)
+        - Universal Schema, Embed relations from multiple schema in same space
+- Differentiable Logic Rules (Yang et al 2017)
