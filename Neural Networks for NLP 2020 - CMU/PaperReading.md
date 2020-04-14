@@ -90,6 +90,22 @@
     - Aggressive Inference Network Learning( He et al 2019)
     - Symbol Sequence Latent Variables (miao and blunsom 2016)
     - Reparameterization (maddison et al 2017, jang et al 2017)
+- HMMs
+    - HMMs with Gaussian Emissions
+    - Normalizing Flow (Rezende and Mohamed 2015)
+    - Embeddings may not be indicative of syntax (he et al 2018)
+    - Learning with Layer wise Reductions (Choi et al 2017)
+- BERT Rediscovers the NLP pipeline (Tenney et al)
+- Domain Adaptation
+    - Pretrain on all data, finetune on domain data (luong et al 2015)
+    - Train general domain and domain specific encoder and sum their results (kim et al 2016)
+    - append a domain tag to input (chu et al 2016)
+- Multilingual learning
+    - Lin et al 2019 -> method to select which language to transfer from a given language
+    - mBERT, XLM, XLM-R
+    - Johnson et al 2016, Ha et al 2016
+    - Zero shot Transfer to new Languages (Chen et al 2020)
+    - Data Creation, Active Learning (Chaudhary et al 2019)
 
 
 
