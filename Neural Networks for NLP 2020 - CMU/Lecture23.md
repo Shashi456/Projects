@@ -88,6 +88,6 @@
 - Neural networks are bad at math (naik et al 2019, wallace at 2019)
 - Drop dataset
 - Combine Semantic parsing and Machine Reading (Gupta et al 2020)
-- Differentiable Theorem Proving (Rocktaschel and Riedel 2017)
+- Differentiable Theorem Proving (Rocktaschel and Riedel 2017)class BertData():
 
 
